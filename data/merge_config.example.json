@@ -1,0 +1,9 @@
+{
+  "output": "data/merged",
+  "classes": ["plastic", "oil_spill", "micro_algae"],
+  "sources": [
+    {"path": "data/raw/plastic_ds", "map": {"trash": "plastic", "bottle": "plastic"}},
+    {"path": "data/raw/oil_ds",     "map": {"oil": "oil_spill"}},
+    {"path": "data/raw/algae_ds",   "map": {"algae": "micro_algae"}}
+  ]
+}

@@ -1,0 +1,15 @@
+# Edit 'path' to point to your dataset folder (absolute path is safest).
+# Expected layout:
+#   <path>/train/images, <path>/train/labels
+#   <path>/valid/images, <path>/valid/labels
+#   <path>/test/images,  <path>/test/labels
+path: ./data/merged
+train: train/images
+val: valid/images
+test: test/images
+
+nc: 3
+names:
+  0: plastic
+  1: oil_spill
+  2: micro_algae
